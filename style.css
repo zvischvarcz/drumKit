@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+
+body {
+   background-color: rgb(57, 57, 57);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   color: white;
+   font-family: 'Acme', sans-serif;
+}
+
+
+.soundMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 10% 8%;
+}
+
+.menuItem {
+    margin: 2%;
+    padding: 0 1.5vw;
+    font-size: 1.5vw;
+    /* border: 2px dashed rgb(64, 64, 64); */
+    background-color: rgb(0, 0, 0);
+    border-radius: 10%;
+    max-height: 150px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.menuItem:hover {
+    background-color: rgb(64, 64, 64);
+}

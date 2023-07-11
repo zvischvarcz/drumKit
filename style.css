@@ -3,7 +3,8 @@
 
 
 body {
-   background-color: rgb(57, 57, 57);
+   /* background-color: rgb(57, 57, 57); */
+   background-image: url(background.jpg);
    background-repeat: no-repeat;
    background-size: 100%;
    color: white;
@@ -24,10 +25,10 @@ body {
     margin: 2%;
     padding: 0 1.5vw;
     font-size: 1.5vw;
-    /* border: 2px dashed rgb(64, 64, 64); */
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.741);
     border-radius: 10%;
     max-height: 150px;
+    min-width: 10%;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -35,5 +36,5 @@ body {
 }
 
 .menuItem:hover {
-    background-color: rgb(64, 64, 64);
+    background-color: rgb(45, 45, 45);
 }

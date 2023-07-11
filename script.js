@@ -22,30 +22,39 @@ const tomButton = document.getElementById("tomButton");
 
 
 function playBoom() {
+    boomAudio.currentTime = 0;
     boomAudio.play();
 }
 const playClap = () => {
+    clapAudio.currentTime = 0;
     clapAudio.play();
 }
 const playHihat = () => {
+    hihatAudio.currentTime = 0;
     hihatAudio.play();
 }
 const playKick = () => {
+    kickAudio.currentTime = 0;
     kickAudio.play();
 }
 const playOpenhat = () => {
+    openhatAudio.currentTime = 0;
     openhatAudio.play();
 }
 const playRide = () => {
+    rideAudio.currentTime = 0;
     rideAudio.play();
 }
 const playSnare = () => {
+    snareAudio.currentTime = 0;
     snareAudio.play();
 }
 const playTink = () => {
-   tinkAudio.play();
+    tinkAudio.currentTime = 0;
+    tinkAudio.play();
 }
 const playTom = () => {
+    tomAudio.currentTime = 0;
     tomAudio.play();
 }
 
@@ -105,7 +114,7 @@ document.addEventListener("keydown", (event) => {
     }
 })
 
-clapButton.addEventListener("click", playTom)
+tomButton.addEventListener("click", playTom)
 document.addEventListener("keydown", (event) => {
     if (event.key == "9") {
         playTom();

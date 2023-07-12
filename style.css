@@ -4,7 +4,7 @@
 
 body {
    /* background-color: rgb(57, 57, 57); */
-   background-image: url(background.jpg);
+   background-image: url(backgroundImg.jpg);
    background-repeat: no-repeat;
    background-size: 100%;
    color: white;
@@ -37,4 +37,8 @@ body {
 
 .menuItem:hover {
     background-color: rgb(45, 45, 45);
+}
+
+.menuItem.keyPush {
+    background-color: rgb(45, 45, 45); 
 }

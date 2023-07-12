@@ -58,6 +58,10 @@ const allSoundEffects = {
     document.addEventListener("keydown", (event) => {
       if (event.key === drumSound.key) {
         playSound(drumSound);
+        drumSound.button.classList.add("keyPush")
+        setTimeout(() => {
+            drumSound.button.classList.remove("keyPush")
+          },150);
       }
     });
   }

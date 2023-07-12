@@ -68,4 +68,4 @@ const allSoundEffects = {
   
   for (const key in allSoundEffects) {
     setupSoundEffect(allSoundEffects[key]);
-  }
+  } 
